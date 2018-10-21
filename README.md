@@ -16,4 +16,6 @@ Example: movie-this, Skyfall
 
 Technologies used: Javascript, Node.js, Moment.js, Bandsintown API, Spotify API, OMDb API
 
-[![CLICK for Demo][(/assets/Screen Shot 2018-10-21 at 2.08.32 PM.png)](https://youtu.be/e0ShO6kv8t0)
+[![CLICK for Demo] (assets/Screen Shot 2018-10-21 at 2.08.32 PM.png)]
+(https://youtu.be/e0ShO6kv8t0)
+[![Click for video](/assets/Screen Shot 2018-10-21 at 2.08.32 PM.png)](https://www.youtube.com/watch?v=VID)
