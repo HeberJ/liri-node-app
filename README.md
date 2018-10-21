@@ -16,4 +16,4 @@ Example: movie-this, Skyfall
 
 Technologies used: Javascript, Node.js, Moment.js, Bandsintown API, Spotify API, OMDb API
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://youtu.be/e0ShO6kv8t0)
+[![Alt text](https://youtu.be/e0ShO6kv8t0/0.jpg)](https://youtu.be/e0ShO6kv8t0)
