@@ -4,7 +4,6 @@ const Spotify = require('node-spotify-api');
 const fs = require('fs');
 const request = require('request');
 const inquirer = require('inquirer');
-const OMDB = require('omdb');
 const moment = require('moment');
 moment().format();
 
@@ -33,8 +32,9 @@ let getConcert = bandName => {
             } else {
                 let bandsData = JSON.parse(body);
 
-                output =
-                    '\n\n================= Liri Found This =================';
+                console.log(
+                    '\n\n================= Liri Found This ================='
+                );
 
                 for (let i = 0; i < bandsData.length; i++) {
                     //Formatting the the date
@@ -42,7 +42,7 @@ let getConcert = bandName => {
                         'MM/DD/YYYY'
                     );
                     //the print out
-                    output += `\n___________________________
+                    output = `\n___________________________
                     \nVenue: ${bandsData[i].venue.name}
                     \nLocation: ${bandsData[i].venue.city}
                     \nEvent Date: ${date}
@@ -203,9 +203,3 @@ inquirer.prompt(questions).then(answers => {
             break;
     }
 });
-
-/*
-* In addition to logging the data to your terminal/bash window, output the data to a .txt file called `log.txt`.
-* Make sure you append each command you run to the `log.txt` file.
-* Do not overwrite your file each time you run a command.
-*/
