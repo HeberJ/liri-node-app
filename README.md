@@ -4,6 +4,8 @@ Liri is a node.js command line application that Gives the user options to choose
 
 Possible Options: 'Concert This', 'Spotify This', 'Movie This', or 'Do What It Says'.
 
+<img src="/assets/Screen Shot 2018-10-21 at 2.08.32 PM.png" href="https://youtu.be/e0ShO6kv8t0"/>
+
 
 'Concert This' uses the Bandsintown API to retrieve all upcoming concerts for an artist that is searched. Each venue name, location, and date is provided for all results. Moment.js is used to format the date from the Bandsintown API.
 
@@ -17,4 +19,4 @@ Example: movie-this, Skyfall
 Technologies used: Javascript, Node.js, Moment.js, Bandsintown API, Spotify API, OMDb API
 
 Video:
-(https://www.youtube.com/watch?v=VID)
+https://youtu.be/e0ShO6kv8t0
