@@ -17,6 +17,7 @@ Possible Options: 'Concert This', 'Spotify This', 'Movie This', or 'Do What It S
 Example: movie-this, Skyfall
 
 Technologies used: Javascript, Node.js, Moment.js, Bandsintown API, Spotify API, OMDb API
-
+***
 Video:
 https://youtu.be/e0ShO6kv8t0
+***
